@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Café partner flat white">
+  <defs><filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 .9  0 0 0 0 .8  0 0 0 .12 0"/></filter></defs>
+  <rect width="400" height="400" fill="#8B5A3A"/>
+  
+  <rect width="400" height="400" fill="#8B5A3A"/>
+  <g stroke="#3f2616" stroke-width="2" opacity=".3" fill="none"><path d="M0 90c130-14 270 14 400 0M0 200c130 14 270-14 400 0M0 310c130-14 270 14 400 0"/></g>
+  <ellipse cx="205" cy="212" rx="150" ry="146" fill="#000" opacity=".25"/>
+  <circle cx="200" cy="205" r="148" fill="#F0E6D6"/>
+  <circle cx="200" cy="205" r="104" fill="#FDFBF7"/>
+  <circle cx="200" cy="205" r="86" fill="#7a4a2d"/>
+  <path d="M200 160c-26-22-60 2-40 30 10 14 40 40 40 40s30-26 40-40c20-28-14-52-40-30z" fill="#F0E6D6"/>
+  <path d="M200 176v52" stroke="#7a4a2d" stroke-width="4" stroke-linecap="round"/>
+  <path d="M310 190a24 24 0 0 1 0 42" stroke="#FDFBF7" stroke-width="12" fill="none" stroke-linecap="round" transform="translate(40 -4)"/>
+
+  <rect width="400" height="400" filter="url(#grain)" opacity=".5"/>
+</svg>

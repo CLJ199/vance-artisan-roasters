@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-label="HIGHLAND ESPRESSO BLEND coffee bag">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 .9  0 0 0 0 .8  0 0 0 .12 0"/></filter>
+    <linearGradient id="kraft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B8935F"/><stop offset=".35" stop-color="#CFAE7E"/><stop offset=".7" stop-color="#C6A474"/><stop offset="1" stop-color="#AD8856"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="300" cy="722" rx="200" ry="20" fill="#1C1613" opacity=".22"/>
+  <path d="M110 120H490L516 190V690A24 24 0 0 1 492 714H108A24 24 0 0 1 84 690V190Z" fill="url(#kraft)"/>
+  <path d="M110 120H490L516 190V690A24 24 0 0 1 492 714H108A24 24 0 0 1 84 690V190Z" filter="url(#grain)" opacity=".7"/>
+  <!-- folded top -->
+  <path d="M104 62H496V132H104Z" fill="#A98558"/>
+  <path d="M104 62H496V76H104Z" fill="#8F6E45" opacity=".55"/>
+  <rect x="104" y="110" width="392" height="12" fill="#7d6140" opacity=".5"/>
+  <rect x="130" y="82" width="340" height="12" rx="6" fill="#1C1613" opacity=".85"/>
+  <!-- label -->
+  <rect x="140" y="230" width="320" height="400" rx="12" fill="#FDFBF7"/>
+  <rect x="140" y="230" width="320" height="16" rx="8" fill="#5A3A28"/>
+  <g transform="translate(276 270) scale(.95)">
+    <circle cx="24" cy="24" r="22" fill="none" stroke="#1C1613" stroke-width="2"/>
+    <ellipse cx="24" cy="29" rx="9" ry="12" transform="rotate(-18 24 29)" fill="#1C1613"/>
+    <path d="M20 40c4-4 5-9 3-13" stroke="#FDFBF7" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M26 8c-5 4-3 8-1 10 1-3 4-4 4-8 3 3 4 7 2 10 4-2 5-8-5-12z" fill="#C85A32"/>
+  </g>
+  <text x="300" y="352" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="13" letter-spacing="4" fill="#8C827A">VANCE ARTISAN</text>
+  <text x="300" y="400" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="38" fill="#1C1613">HIGHLAND</text>
+  <text x="300" y="434" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="700" font-size="20" letter-spacing="2" fill="#C85A32">ESPRESSO BLEND</text>
+  <rect x="190" y="458" width="220" height="2" fill="#E4DBCF"/>
+  <text x="300" y="498" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="14" letter-spacing="3" fill="#1C1613">DARK ROAST</text>
+  <rect x="262" y="540" width="20" height="8" rx="4" fill="#C85A32"/><rect x="288" y="540" width="20" height="8" rx="4" fill="#C85A32"/><rect x="314" y="540" width="20" height="8" rx="4" fill="#C85A32"/>
+  <text x="300" y="584" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#6a5f57">Molasses · Cocoa Nib · Cedar</text>
+  <text x="300" y="614" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#8C827A">250 g · WHOLE BEAN</text>
+</svg>

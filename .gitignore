@@ -1,0 +1,6 @@
+# local snapshots of earlier drafts (kept on disk, not published)
+backups/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

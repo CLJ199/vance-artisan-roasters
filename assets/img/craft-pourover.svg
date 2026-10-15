@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Illustration of a pour-over coffee brew with a gooseneck kettle, ceramic dripper and glass carafe">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D2683B"/>
+      <stop offset="1" stop-color="#9B4220"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8B5A3A"/>
+      <stop offset="1" stop-color="#5E3B25"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FDFBF7" stop-opacity=".5"/>
+      <stop offset=".5" stop-color="#FDFBF7" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#FDFBF7" stop-opacity=".4"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 .9  0 0 0 0 .8  0 0 0 .12 0"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="480" r="330" fill="#FDFBF7" opacity=".07"/>
+
+  <!-- wooden board -->
+  <rect y="800" width="800" height="200" fill="url(#wood)"/>
+  <g stroke="#3f2616" stroke-width="2" opacity=".35" fill="none">
+    <path d="M0 850c200-14 400 14 800 0M0 905c240 14 480-14 800 0M0 955c200-10 500 10 800 0"/>
+  </g>
+  <rect y="800" width="800" height="6" fill="#3f2616" opacity=".4"/>
+  <ellipse cx="400" cy="808" rx="170" ry="16" fill="#000" opacity=".3"/>
+
+  <!-- kettle -->
+  <g>
+    <path d="M640 150c24-10 44 6 40 36" stroke="#1C1613" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <rect x="610" y="96" width="170" height="150" rx="52" fill="#1C1613"/>
+    <rect x="650" y="76" width="90" height="26" rx="12" fill="#2A211C"/>
+    <circle cx="695" cy="70" r="12" fill="#C85A32"/>
+    <path d="M612 190C560 190 580 130 556 104" stroke="#1C1613" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <rect x="636" y="140" width="118" height="10" rx="5" fill="#C85A32" opacity=".85"/>
+  </g>
+
+  <!-- steam -->
+  <g stroke="#FDFBF7" stroke-width="6" fill="none" stroke-linecap="round" opacity=".28">
+    <path d="M690 54c-18-20 18-34 0-58"/>
+    <path d="M730 50c-14-16 14-28 2-48"/>
+  </g>
+
+  <!-- water stream -->
+  <path d="M556 112C520 210 440 262 410 330" stroke="#FDFBF7" stroke-width="7" fill="none" stroke-linecap="round" opacity=".85"/>
+  <path d="M556 112C520 210 440 262 410 330" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" opacity=".8" stroke-dasharray="2 14"/>
+
+  <!-- carafe -->
+  <path d="M296 570Q296 524 340 506V452h120v54Q504 524 504 570V780Q504 806 478 806H322Q296 806 296 780Z" fill="url(#glass)" stroke="#FDFBF7" stroke-opacity=".6" stroke-width="3"/>
+  <path d="M298 690H502V780Q502 804 478 804H322Q298 804 298 780Z" fill="#2a1810"/>
+  <ellipse cx="400" cy="690" rx="102" ry="10" fill="#3d2415"/>
+  <rect x="306" y="540" width="12" height="190" rx="6" fill="#FDFBF7" opacity=".3"/>
+  <path d="M310 740h-34" stroke="#FDFBF7" stroke-opacity=".5" stroke-width="2"/>
+
+  <!-- dripper -->
+  <path d="M288 332H512L452 480H348Z" fill="#FDFBF7"/>
+  <path d="M288 332H512L452 480H348Z" fill="none" stroke="#E8DDCB" stroke-width="3"/>
+  <g stroke="#E3D6C0" stroke-width="3" stroke-linecap="round">
+    <path d="M330 346l30 120M370 346l16 124M410 346v126M450 346l-16 124M490 346l-30 120"/>
+  </g>
+  <rect x="274" y="318" width="252" height="20" rx="10" fill="#F0E6D6"/>
+  <path d="M290 352c-56 0-58 56 0 56" stroke="#FDFBF7" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <ellipse cx="400" cy="334" rx="104" ry="11" fill="#3d2415"/>
+  <path d="M312 332c14-26 60-30 88-30s74 4 88 30z" fill="#5a3520"/>
+  <path d="M312 332c14-26 60-30 88-30s74 4 88 30" fill="none" stroke="#7a4a2d" stroke-width="3"/>
+  <circle cx="368" cy="312" r="5" fill="#7a4a2d"/><circle cx="420" cy="306" r="4" fill="#7a4a2d"/><circle cx="450" cy="318" r="3.5" fill="#7a4a2d"/>
+
+  <!-- cup + saucer -->
+  <ellipse cx="148" cy="802" rx="104" ry="16" fill="#F0E6D6"/>
+  <path d="M82 740h132v30a66 62 0 0 1-132 0z" fill="#FDFBF7"/>
+  <ellipse cx="148" cy="740" rx="66" ry="12" fill="#3d2415"/>
+  <path d="M214 752c34 0 34 40 0 40" stroke="#FDFBF7" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M120 722c-12-18 12-24 0-40M156 720c-10-16 10-22 2-36" stroke="#FDFBF7" stroke-width="5" fill="none" stroke-linecap="round" opacity=".35"/>
+
+  <!-- scoop of beans -->
+  <g transform="translate(640 836)">
+    <ellipse cx="0" cy="22" rx="120" ry="20" fill="#000" opacity=".25"/>
+    <path d="M-110 -2a110 40 0 0 0 220 0z" fill="#FDFBF7"/>
+    <ellipse cx="0" cy="-2" rx="110" ry="30" fill="#E8DDCB"/>
+    <g fill="#6B4630">
+      <ellipse cx="-52" cy="-10" rx="15" ry="9" transform="rotate(-20 -52 -10)"/>
+      <ellipse cx="-14" cy="-16" rx="15" ry="9" transform="rotate(25 -14 -16)"/>
+      <ellipse cx="24" cy="-8" rx="15" ry="9" transform="rotate(-8 24 -8)"/>
+      <ellipse cx="58" cy="-14" rx="15" ry="9" transform="rotate(35 58 -14)"/>
+      <ellipse cx="-30" cy="4" rx="15" ry="9" transform="rotate(12 -30 4)"/>
+      <ellipse cx="14" cy="6" rx="15" ry="9" transform="rotate(-30 14 6)"/>
+      <ellipse cx="46" cy="6" rx="15" ry="9" transform="rotate(15 46 6)"/>
+    </g>
+    <g stroke="#33200f" stroke-width="2" stroke-linecap="round">
+      <path d="M-62 -10h20M-24 -13l20-6M14 -8h20M48 -10l20 -8M-40 4h20M4 8l20-6M36 6h20"/>
+    </g>
+  </g>
+
+  <rect width="800" height="1000" filter="url(#grain)" opacity=".45"/>
+</svg>

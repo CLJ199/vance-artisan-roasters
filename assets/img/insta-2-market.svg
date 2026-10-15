@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Saturday market stall">
+  <defs><filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 .9  0 0 0 0 .8  0 0 0 .12 0"/></filter></defs>
+  <rect width="400" height="400" fill="#2A211C"/>
+  
+  <rect y="290" width="400" height="110" fill="#8B5A3A"/>
+  <rect y="290" width="400" height="6" fill="#3f2616" opacity=".4"/>
+  <path d="M0 70h50v90a25 25 0 0 1-50 0z" fill="#C85A32"/><path d="M50 70h50v90a25 25 0 0 1-50 0z" fill="#FDFBF7"/><path d="M100 70h50v90a25 25 0 0 1-50 0z" fill="#C85A32"/><path d="M150 70h50v90a25 25 0 0 1-50 0z" fill="#FDFBF7"/><path d="M200 70h50v90a25 25 0 0 1-50 0z" fill="#C85A32"/><path d="M250 70h50v90a25 25 0 0 1-50 0z" fill="#FDFBF7"/><path d="M300 70h50v90a25 25 0 0 1-50 0z" fill="#C85A32"/><path d="M350 70h50v90a25 25 0 0 1-50 0z" fill="#FDFBF7"/>
+  <rect y="56" width="400" height="22" fill="#1C1613"/>
+  <rect x="60" y="180" width="8" height="110" fill="#1C1613"/><rect x="332" y="180" width="8" height="110" fill="#1C1613"/>
+  <g transform="translate(90 214)"><path d="M0 8H62l6 12V76H-6V20Z" fill="#C9A77C"/><rect x="8" y="30" width="46" height="30" rx="3" fill="#FDFBF7"/><rect x="8" y="30" width="46" height="5" fill="#E2B04A"/></g><g transform="translate(170 214)"><path d="M0 8H62l6 12V76H-6V20Z" fill="#C9A77C"/><rect x="8" y="30" width="46" height="30" rx="3" fill="#FDFBF7"/><rect x="8" y="30" width="46" height="5" fill="#C85A32"/></g><g transform="translate(250 214)"><path d="M0 8H62l6 12V76H-6V20Z" fill="#C9A77C"/><rect x="8" y="30" width="46" height="30" rx="3" fill="#FDFBF7"/><rect x="8" y="30" width="46" height="5" fill="#5A3A28"/></g>
+  <circle cx="340" cy="360" r="16" fill="#FDFBF7" opacity=".9"/>
+
+  <rect width="400" height="400" filter="url(#grain)" opacity=".5"/>
+</svg>

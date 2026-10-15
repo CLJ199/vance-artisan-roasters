@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Pour-over brew guide">
+  <defs><filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 .9  0 0 0 0 .8  0 0 0 .12 0"/></filter></defs>
+  <rect width="400" height="400" fill="#E9DFD0"/>
+  
+  <circle cx="200" cy="200" r="150" fill="#D6C7B2"/>
+  <path d="M110 150H290L250 250H150Z" fill="#FDFBF7"/>
+  <rect x="100" y="140" width="200" height="16" rx="8" fill="#F0E6D6"/>
+  <ellipse cx="200" cy="148" rx="86" ry="9" fill="#3d2415"/>
+  <path d="M130 250h140v20q0 40-70 40t-70-40z" fill="#FDFBF7" opacity=".55" stroke="#FDFBF7"/>
+  <path d="M132 292h136v8q0 36-68 36t-68-36z" fill="#2a1810"/>
+  <path d="M330 40C290 80 240 100 204 144" stroke="#C85A32" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M330 40C290 80 240 100 204 144" stroke="#FDFBF7" stroke-width="2" fill="none" stroke-dasharray="2 12" stroke-linecap="round"/>
+
+  <rect width="400" height="400" filter="url(#grain)" opacity=".5"/>
+</svg>

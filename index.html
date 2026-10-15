@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vance Artisan Coffee Roasters | Small-Batch Specialty Coffee</title>
+  <meta name="description" content="Small-batch specialty coffee roasted locally. Browse our single-origin beans and enquire about wholesale for your café.">
+  <meta name="theme-color" content="#1C1613">
+
+  <!-- Social sharing. Replace https://example.com with the live domain once hosted -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Vance Artisan Coffee Roasters">
+  <meta property="og:title" content="Vance Artisan Coffee Roasters | Small-Batch Specialty Coffee">
+  <meta property="og:description" content="Small-batch specialty coffee roasted locally. Browse our beans and enquire about wholesale for your café.">
+  <meta property="og:image" content="https://example.com/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Vance Artisan Coffee Roasters",
+    "description": "Small-batch specialty coffee roasters supplying retail customers and local cafés.",
+    "email": "elena@vanceartisanroasters.co.za",
+    "image": "https://example.com/assets/img/og-image.jpg",
+    "founder": { "@type": "Person", "name": "Elena Vance" }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/logo/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/logo/favicon-192.png">
+  <link rel="apple-touch-icon" href="assets/img/logo/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Vance Artisan Coffee Roasters, home">
+        <img class="emblem" src="assets/img/logo/emblem-light.png" alt="" width="34" height="41">
+        <span class="brand-text">Vance <small>Artisan Coffee Roasters</small></span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#beans">Our Beans</a></li>
+          <li><a href="#craft">The Craft</a></li>
+          <li><a href="#wholesale">Wholesale</a></li>
+          <li><a href="#social">Find Us</a></li>
+        </ul>
+        <div class="social-icons" aria-label="Social media">
+          <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/></svg>
+          </a>
+          <a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v7h4v-7h3l1-4h-4V8.5c0-.3.2-.5.5-.5z" fill="currentColor"/></svg>
+          </a>
+          <a href="mailto:elena@vanceartisanroasters.co.za" aria-label="Email us">
+            <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero texture-dark">
+      <div class="container hero-inner">
+        <p class="eyebrow">Small-batch · Locally roasted</p>
+        <h1>Coffee roasted with <em>patience</em>, poured with pride.</h1>
+        <p class="lead">From our drum to your cup: single-origin beans and espresso blends, roasted in small batches every week.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#beans">Find Our Beans</a>
+          <a class="btn btn-ghost" href="#wholesale">Inquire for Wholesale</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="assets/img/photos/hero-roastery.jpg" alt="A roaster scooping freshly roasted beans from the copper cooling tray beside the roasting drum" width="1408" height="768" fetchpriority="high">
+      </div>
+    </section>
+
+    <!-- BEANS -->
+    <section class="section" id="beans">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">The Roastery Shelf</p>
+          <h2>Find your roast</h2>
+          <p>Filter by roast level or flavour to see what's fresh off the drum.</p>
+        </header>
+
+        <div class="filters" role="group" aria-label="Filter coffees">
+          <div class="filter-group" data-filter="roast">
+            <span class="filter-label">Roast</span>
+            <button class="chip is-active" data-value="all" aria-pressed="true">All</button>
+            <button class="chip" data-value="Light" aria-pressed="false">Light</button>
+            <button class="chip" data-value="Medium" aria-pressed="false">Medium</button>
+            <button class="chip" data-value="Dark" aria-pressed="false">Dark</button>
+          </div>
+          <div class="filter-group" data-filter="flavor">
+            <span class="filter-label">Flavour</span>
+            <button class="chip is-active" data-value="all" aria-pressed="true">Any</button>
+            <button class="chip" data-value="Fruity" aria-pressed="false">Fruity</button>
+            <button class="chip" data-value="Floral" aria-pressed="false">Floral</button>
+            <button class="chip" data-value="Chocolatey" aria-pressed="false">Chocolatey</button>
+            <button class="chip" data-value="Nutty" aria-pressed="false">Nutty</button>
+            <button class="chip" data-value="Sweet" aria-pressed="false">Sweet</button>
+            <button class="chip" data-value="Smoky" aria-pressed="false">Smoky</button>
+          </div>
+        </div>
+
+        <p class="results-count" id="results-count" aria-live="polite"></p>
+        <div class="bean-grid" id="bean-grid"></div>
+        <p class="empty-state" id="empty-state" hidden>No coffees match that combination. <button class="link-btn" id="reset-filters">Reset filters</button></p>
+      </div>
+    </section>
+
+    <!-- CRAFT -->
+    <section class="section section-alt texture-dark" id="craft">
+      <div class="container craft-grid">
+        <img class="craft-img" src="assets/img/photos/craft-barista.jpg" alt="A barista pouring water from a gooseneck kettle over a pour-over coffee" width="1408" height="768" loading="lazy">
+        <div>
+          <p class="eyebrow">The Craft</p>
+          <h2>Small batches. Big care.</h2>
+          <p>We roast on a single drum, in batches small enough to watch every second of the curve. Every lot is cupped before it's bagged, and every bag is packed by hand in kraft paper, with the roast date on the front.</p>
+          <ul class="craft-points">
+            <li><strong>Sourced directly</strong><span>Traceable, fairly-priced lots from growers we know.</span></li>
+            <li><strong>Roasted weekly</strong><span>Fresh to order. Never sitting on a shelf for months.</span></li>
+            <li><strong>Brewed to taste</strong><span>Every coffee has a suggested brew guide on the bag.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHOLESALE -->
+    <section class="section" id="wholesale">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">For Cafés &amp; Restaurants</p>
+          <h2>Wholesale inquiry</h2>
+          <p>Tell us what you pour and we'll put together a supply plan. Use the calculator for a ballpark estimate; we'll confirm final pricing by email.</p>
+        </header>
+
+        <div class="wholesale-grid">
+          <!-- Set data-endpoint to the form handler URL (e.g. https://formspree.io/f/xxxxxxx).
+               While empty the form runs in demo mode and sends nothing. -->
+          <form id="wholesale-form" class="card form" novalidate data-endpoint="">
+            <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="field-row">
+              <label class="field">
+                <span>Business name</span>
+                <input type="text" name="business" autocomplete="organization" required>
+                <small class="error" aria-live="polite"></small>
+              </label>
+              <label class="field">
+                <span>Contact name</span>
+                <input type="text" name="name" autocomplete="name" required>
+                <small class="error" aria-live="polite"></small>
+              </label>
+            </div>
+            <div class="field-row">
+              <label class="field">
+                <span>Email</span>
+                <input type="email" name="email" autocomplete="email" required>
+                <small class="error" aria-live="polite"></small>
+              </label>
+              <label class="field">
+                <span>Phone <em>(optional)</em></span>
+                <input type="tel" name="phone" autocomplete="tel">
+              </label>
+            </div>
+
+            <label class="field">
+              <span>Main coffee you're interested in</span>
+              <select name="coffee" id="calc-coffee"></select>
+            </label>
+
+            <div class="field">
+              <label for="calc-kg"><span>Estimated volume</span> <output id="calc-kg-out" for="calc-kg">10 kg / week</output></label>
+              <input type="range" id="calc-kg" name="kg" min="2" max="60" step="1" value="10">
+              <div class="range-scale"><span>2 kg</span><span>60 kg</span></div>
+            </div>
+
+            <div class="field-row">
+              <label class="field">
+                <span>Delivery location</span>
+                <select name="delivery" id="calc-delivery">
+                  <option value="pickup">Collect from the roastery</option>
+                  <option value="local" selected>Local delivery</option>
+                  <option value="courier">Courier (outside our area)</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Delivery frequency</span>
+                <select name="frequency">
+                  <option>Weekly</option>
+                  <option>Every two weeks</option>
+                  <option>Monthly</option>
+                </select>
+              </label>
+            </div>
+
+            <fieldset class="field checks">
+              <legend>Equipment needs</legend>
+              <label><input type="checkbox" name="equipment" value="Espresso machine"> Espresso machine</label>
+              <label><input type="checkbox" name="equipment" value="Grinder"> Grinder</label>
+              <label><input type="checkbox" name="equipment" value="Barista training"> Barista training</label>
+              <label><input type="checkbox" name="equipment" value="None, we're covered"> None, we're covered</label>
+            </fieldset>
+
+            <label class="field">
+              <span>Anything else we should know? <em>(optional)</em></span>
+              <textarea name="notes" rows="3"></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary">Send wholesale inquiry</button>
+            <p class="form-success" id="form-success" role="status" hidden></p>
+            <p class="form-error" id="form-error" role="alert" hidden></p>
+          </form>
+
+          <aside class="card estimate" aria-labelledby="estimate-title">
+            <h3 id="estimate-title">Your estimate</h3>
+            <p class="estimate-total"><span id="est-monthly">R0</span><small>/ month</small></p>
+            <dl class="estimate-lines">
+              <div><dt>Coffee</dt><dd id="est-coffee">–</dd></div>
+              <div><dt>Volume</dt><dd id="est-volume">–</dd></div>
+              <div><dt>Price per kg</dt><dd id="est-price">–</dd></div>
+              <div><dt>Volume discount</dt><dd id="est-discount">–</dd></div>
+              <div><dt>Delivery</dt><dd id="est-delivery">–</dd></div>
+            </dl>
+            <p class="fine-print">Draft figures are illustrative placeholders. Real wholesale pricing to be supplied by Vance Artisan Coffee Roasters.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL / FIND US -->
+    <section class="section section-alt" id="social">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Find Us</p>
+          <h2>This week's roasting &amp; market pop-ups</h2>
+          <p>We post the weekly roasting schedule and pop-up locations on Instagram first. Follow along <a href="https://instagram.com/" target="_blank" rel="noopener">@vanceartisanroasters</a>.</p>
+        </header>
+
+        <div class="insta-grid" id="insta-grid" aria-label="Instagram feed preview"></div>
+        <p class="fine-print center">Preview tiles. The live feed (an Instagram embed or lightweight feed widget) is connected once the account is linked.</p>
+
+        <div class="cta-row center">
+          <a class="btn btn-primary" href="https://instagram.com/" target="_blank" rel="noopener">Follow on Instagram</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer texture-dark">
+    <div class="container footer-inner">
+      <div>
+        <img class="footer-logo" src="assets/img/logo/logo-full-light.png" alt="Vance Artisan Coffee Roasters" width="472" height="579" loading="lazy">
+        <p>Small-batch specialty coffee, roasted locally.</p>
+      </div>
+      <div>
+        <p class="footer-title">Contact</p>
+        <p><a href="mailto:elena@vanceartisanroasters.co.za">elena@vanceartisanroasters.co.za</a></p>
+        <p>Elena Vance, Owner &amp; Head Roaster</p>
+      </div>
+      <div>
+        <p class="footer-title">Follow</p>
+        <div class="social-icons">
+          <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/></svg></a>
+          <a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v7h4v-7h3l1-4h-4V8.5c0-.3.2-.5.5-.5z" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-legal container">© <span id="year"></span> Vance Artisan Coffee Roasters. Draft website for review. Practice project.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
